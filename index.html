@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#home">ShopEasy</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#order">🛒 Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Info" id="home">
+            <div class="Info-text">
+                <h1>Welcome to ShopEasy</h1>
+                <p>Simple shopping for your everyday needs.</p>
+                <a class="button" href="#products">Shop Now</a>
+            </div>
+            <img src="https://th.bing.com/th/id/OIP.eOin5uku9Z537Z6SwkDwaAHaE8?w=285&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="shopping online">
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Categories</h2>
+            <div class="category-grid">
+                <a href="#products">🎧<br>Electronics</a>
+                <a href="#products">👕<br>Clothing</a>
+                <a href="#products">👟<br>Shoes</a>
+                <a href="#products">📚<br>Books</a>
+                <a href="#products">🎒<br>Accessories</a>
+            </div>
+        </section>
+
+
+        <section class="shop-section" id="products">
+            <div class="shop-layout">
+                <aside class="sidebar">
+                    <h2>Filter Products</h2>
+                    <form>
+                        <fieldset>
+                            <legend>Categories</legend>
+                            <label><input type="checkbox"> Electronics</label>
+                            <label><input type="checkbox"> Clothing</label>
+                            <label><input type="checkbox"> Shoes</label>
+                            <label><input type="checkbox"> Books</label>
+                            <label><input type="checkbox"> Accessories</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Price</legend>
+                            <label><input type="radio" name="price"> Under ₹500</label>
+                            <label><input type="radio" name="price"> ₹500 - ₹1,000</label>
+                            <label><input type="radio" name="price"> ₹1,000 - ₹2,000</label>
+                            <label><input type="radio" name="price"> Above ₹2,000</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Availability</legend>
+                            <label><input type="checkbox"> In Stock</label>
+                            <label><input type="checkbox"> Out of Stock</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Rating</legend>
+                            <label><input type="radio" name="rating"> ★★★★★</label>
+                            <label><input type="radio" name="rating"> ★★★★ &amp; above</label>
+                            <label><input type="radio" name="rating"> ★★★ &amp; above</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Brand</legend>
+                            <label><input type="checkbox"> Nike</label>
+                            <label><input type="checkbox"> Adidas</label>
+                            <label><input type="checkbox"> Samsung</label>
+                            <label><input type="checkbox"> Apple</label>
+                        </fieldset>
+
+                        <div class="button-row">
+                            <button type="submit">Apply Filters</button>
+                            <button type="reset">Clear Filters</button>
+                        </div>
+                    </form>
+                </aside>
+
+                <div class="product-area">
+                    <h2 class="section-title">Products</h2>
+                    <p>Showing 6 Products</p>
+
+
+                    <div class="product-grid">
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Wireless headphones">
+                            <h3>Wireless Headphones</h3>
+                            <p>Electronics</p>
+                            <p>Clear sound for music.</p>
+                            <strong>₹1,499</strong>
+                            <span>★★★★☆</span>
+                            <small>In Stock</small>
+                            <div class="card-buttons">
+                                <a href="#product-info">View Details</a>
+                                <button type="button">Add to Cart</button>
+                            </div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="White t-shirt">
+                            <h3>Classic T-Shirt</h3>
+                            <p>Clothing</p>
+                            <p>Soft cotton daily wear.</p>
+                            <strong>₹699</strong>
+                            <span>★★★★★</span>
+                            <small>In Stock</small>
+                            <div class="card-buttons"><a href="#product-info">View Details</a><button type="button">Add to Cart</button></div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Red running shoes">
+                            <h3>Running Shoes</h3>
+                            <p>Shoes</p>
+                            <p>Light shoes for walking.</p>
+                            <strong>₹1,899</strong>
+                            <span>★★★★☆</span>
+                            <small>In Stock</small>
+                            <div class="card-buttons"><a href="#product-info">View Details</a><button type="button">Add to Cart</button></div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Stack of books">
+                            <h3>Learning Book</h3>
+                            <p>Books</p>
+                            <p>A useful book for beginners.</p>
+                            <strong>₹499</strong>
+                            <span>★★★★☆</span>
+                            <small>In Stock</small>
+                            <div class="card-buttons"><a href="#product-info">View Details</a><button type="button">Add to Cart</button></div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Travel backpack">
+                            <h3>Travel Backpack</h3>
+                            <p>Accessories</p>
+                            <p>Simple bag for travel.</p>
+                            <strong>₹999</strong>
+                            <span>★★★★☆</span>
+                            <small>Out of Stock</small>
+                            <div class="card-buttons"><a href="#product-info">View Details</a><button type="button">Add to Cart</button></div>
+                        </article>
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Smart watch">
+                            <h3>Smart Watch</h3>
+                            <p>Electronics</p>
+                            <p>Tracks time and steps.</p>
+                            <strong>₹2,499</strong>
+                            <span>★★★★★</span>
+                            <small>In Stock</small>
+                            <div class="card-buttons"><a href="#product-info">View Details</a><button type="button">Add to Cart</button></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="product-info">
+            <h2 class="section-title">Product Information</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Headphones</td>
+                        <td>Electronics</td>
+                        <td>₹1,499</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>T-Shirt</td>
+                        <td>Clothing</td>
+                        <td>₹699</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Backpack</td>
+                        <td>Accessories</td>
+                        <td>₹999</td>
+                        <td>Out of Stock</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+        <section class="section" id="order">
+            <h2 class="section-title">Place Your Order</h2>
+            <form class="order-form">
+                <div class="form-grid">
+                    <label>Full Name<input type="text" placeholder="Enter your name" required></label>
+                    <label>Email<input type="email" placeholder="you@example.com" required></label>
+                    <label>Phone Number<input type="tel" placeholder="98765 43210" required></label>
+                    <label>City<input type="text" placeholder="Your city" required></label>
+                    <label>Product<select required><option value="">Choose a product</option><option>Headphones</option><option>T-Shirt</option><option>Backpack</option></select></label>
+                    <label>Quantity<input type="number" min="1" value="1" required></label>
+                </div>
+                <label>Address<textarea placeholder="Enter your address" required></textarea></label>
+                <label>Size<select><option>Not applicable</option><option>Small</option><option>Medium</option><option>Large</option></select></label>
+                <fieldset>
+                    <legend>Payment Method</legend>
+                    <label><input type="radio" name="payment" required> Cash on Delivery</label>
+                    <label><input type="radio" name="payment"> Credit/Debit Card</label>
+                    <label><input type="radio" name="payment"> UPI</label>
+                </fieldset>
+                <label><input type="checkbox" required> I agree to the Terms and Conditions.</label>
+                <label>Delivery Instructions<textarea placeholder="Any delivery instructions?"></textarea></label>
+                <div class="button-row"><button type="submit">Place Order</button><button type="reset">Reset</button></div>
+            </form>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>24 Market Street, Bengaluru, Karnataka</p>
+            <p><a href="mailto:hello@shopeasy.example">hello@shopeasy.example</a></p>
+            <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            <p><a href="https://www.instagram.com/" target="_blank" rel="noopener">Follow us on Instagram</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>ShopEasy</strong></p>
+            <p><a href="#home">Home</a> | <a href="#products">Products</a> | <a href="#contact">Contact</a></p>
+            <p>© 2026 ShopEasy</p>
+        </div>
+    </footer>
+</body>
+</html>
