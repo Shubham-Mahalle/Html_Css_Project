@@ -176,15 +176,4 @@ The footer contains:
 - Navigation links
 - Copyright information
 
-## HTML5 Concepts Used
 
-This project demonstrates several HTML5 concepts:
-
-### Semantic Elements
-<header>
-<nav>
-<main>
-<section>
-<aside>
-<article>
-<footer>
