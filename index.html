@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopEasy</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,7 +23,7 @@
         <section class="Info" id="home">
             <div class="Info-text">
                 <h1>Welcome to ShopEasy</h1>
-                <p>Simple shopping for your everyday needs.</p>
+                <p>New text,Simple shopping for your everyday needs.</p>
                 <a class="button" href="#products">Shop Now</a>
             </div>
             <img src="https://th.bing.com/th/id/OIP.eOin5uku9Z537Z6SwkDwaAHaE8?w=285&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="shopping online">
@@ -99,7 +98,7 @@
 
                     <div class="product-grid">
                         <article class="product-card">
-                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Wireless headphones">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgV5lVs2yzWCjF2GPyPZ23h9UdFPO3RmmU0HLlnUsofA&s" alt="Wireless headphones">
                             <h3>Wireless Headphones</h3>
                             <p>Electronics</p>
                             <p>Clear sound for music.</p>
@@ -210,24 +209,51 @@
             <h2 class="section-title">Place Your Order</h2>
             <form class="order-form">
                 <div class="form-grid">
-                    <label>Full Name<input type="text" placeholder="Enter your name" required></label>
-                    <label>Email<input type="email" placeholder="you@example.com" required></label>
-                    <label>Phone Number<input type="tel" placeholder="98765 43210" required></label>
-                    <label>City<input type="text" placeholder="Your city" required></label>
-                    <label>Product<select required><option value="">Choose a product</option><option>Headphones</option><option>T-Shirt</option><option>Backpack</option></select></label>
-                    <label>Quantity<input type="number" min="1" value="1" required></label>
+                    <label>Full Name
+                        <input type="text" placeholder="Enter your name" required></label>
+                    <label>Email
+                        <input type="email" placeholder="you@example.com" required></label>
+                    <label>Phone Number
+                        <input type="tel" placeholder="98765 43210" required></label>
+                    <label>City
+                        <input type="text" placeholder="Your city" required></label>
+                    <label>Product
+                        <select required>
+                        <option value="">Choose a product</option>
+                        <option>Headphones</option>
+                        <option>T-Shirt</option>
+                        <option>Backpack</option>
+                    </select>
+                   </label>
+                    <label>Quantity
+                        <input type="number" min="1" value="1" required></label>
                 </div>
-                <label>Address<textarea placeholder="Enter your address" required></textarea></label>
-                <label>Size<select><option>Not applicable</option><option>Small</option><option>Medium</option><option>Large</option></select></label>
+                <label>Address
+                    <textarea placeholder="Enter your address" required>
+                    </textarea>
+                </label>
+                <label>Size
+                    <select>
+                        <option>Not applicable</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </label>
                 <fieldset>
                     <legend>Payment Method</legend>
                     <label><input type="radio" name="payment" required> Cash on Delivery</label>
                     <label><input type="radio" name="payment"> Credit/Debit Card</label>
                     <label><input type="radio" name="payment"> UPI</label>
                 </fieldset>
-                <label><input type="checkbox" required> I agree to the Terms and Conditions.</label>
-                <label>Delivery Instructions<textarea placeholder="Any delivery instructions?"></textarea></label>
-                <div class="button-row"><button type="submit">Place Order</button><button type="reset">Reset</button></div>
+                <label>
+                    <input type="checkbox" required> I agree to the Terms and Conditions.</label>
+                <label>Delivery Instructions
+                    <textarea placeholder="Any delivery instructions?"></textarea>
+                </label>
+                <div class="button-row">
+                    <button type="submit">Place Order</button>
+                    <button type="reset">Reset</button></div>
             </form>
         </section>
 
